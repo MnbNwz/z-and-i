@@ -1,0 +1,56 @@
+.logic-block {
+  background-image: url(../images/logistic.png);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  padding: 80px 0;
+}
+.logic-block .heading h1 {
+  font-size: 75px;
+  line-height: 90px;
+  max-width: 500px;
+  margin-bottom: 50px;
+}
+
+.logic-block ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logic-content h1 {
+  font-size: 55px;
+  line-height: 65px;
+}
+.logic-text .line {
+  background: #fff;
+  width: 30px;
+  height: 2px;
+}
+
+.logic-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+@media screen and (max-width: 767px) {
+  .logic-block .heading h1 {
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+  }
+  .logic-block ul {
+    flex-wrap: wrap;
+  }
+  .logic-content h1 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .logic-text p {
+    font-size: 10px;
+  }
+  .logic-block li {
+    width: 40%;
+    margin-bottom: 20px;
+  }
+}

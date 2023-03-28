@@ -1,0 +1,57 @@
+header {
+  padding: 15px 0;
+  position: relative;
+}
+.header-logo img {
+  max-width: 135px;
+}
+.header-menu {
+  display: flex;
+  gap: 50px;
+  justify-content: flex-end;
+}
+.header-menu a {
+  font-size: 20px;
+  font-weight: bold;
+  color: #070707;
+  text-decoration: none;
+}
+.menu-btn {
+  background: none;
+  border: none;
+  display: none;
+}
+.anchor {
+  -webkit-text-decoration-color: rgba(255, 255, 255, 0.9); /* Safari */
+  text-decoration-color: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width: 991px) {
+  .menu-btn {
+    display: block;
+    margin-left: auto;
+  }
+  .header-menu {
+    position: absolute;
+    top: 100%;
+    background: #fff;
+    right: -170px;
+    z-index: 999;
+    display: block;
+    overflow: hidden;
+    width: 0;
+    transition: 0.5s ease;
+    height: 259px;
+  }
+  .mystyle {
+    width: 170px;
+    right: 0;
+  }
+  .header-menu li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #000;
+  }
+  .header-menu li:last-child {
+    border-bottom: 5px solid red;
+  }
+}

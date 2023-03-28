@@ -1,0 +1,95 @@
+footer {
+  background-color: #133a7c;
+}
+
+footer .row {
+  align-items: flex-start;
+  padding: 50px 0;
+}
+
+.footer-img img {
+  width: 55%;
+}
+
+.fot-content > p {
+  color: white;
+  padding-top: 5px;
+  font-size: 22px;
+}
+
+.quicklinks-ul li h3 {
+  color: white;
+  padding: 5px 0;
+}
+
+.quicklinks-ul li {
+  list-style: none;
+  padding: 4px 0;
+}
+
+.quicklinks-ul li a {
+  color: white;
+  -webkit-text-decoration-color: rgba(255, 255, 255, 0.9); /* Safari */
+  text-decoration-color: rgba(255, 255, 255, 0.5);
+}
+
+.ourservices-ul li h3 {
+  color: white;
+  padding: 5px 0;
+}
+
+.ourservices-ul li {
+  list-style: none;
+  padding: 4px 0;
+}
+
+.ourservices-ul li a {
+  color: white;
+  /* text-decoration: none;  */
+  -webkit-text-decoration-color: rgba(255, 255, 255, 0.9); /* Safari */
+  text-decoration-color: rgba(255, 255, 255, 0.5);
+}
+
+.get-ul li h3 {
+  color: white;
+}
+.get-ul a,
+.get-ul li {
+  color: #fff;
+  -webkit-text-decoration-color: rgba(255, 255, 255, 0.9); /* Safari */
+  text-decoration-color: rgba(255, 255, 255, 0.5);
+}
+.get-ul li {
+  list-style: none;
+  padding: 4px 0;
+}
+
+.footer-social-icons ul {
+  display: flex;
+  gap: 30px;
+}
+
+.get-ul li > p {
+  display: contents;
+  color: white;
+}
+
+.copy-right {
+  border-top: 2px solid white;
+  padding: 15px 0;
+}
+
+.copy-right > p {
+  color: white;
+  text-align: center;
+}
+@media screen and (max-width: 991px) {
+  footer .col-3 {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 767px) {
+  footer .col-3 {
+    width: 100%;
+  }
+}

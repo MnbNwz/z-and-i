@@ -1,0 +1,42 @@
+.carousel-margin {
+  padding-bottom: 8%;
+}
+.Carousel-images {
+  width: 100%;
+  height: 750px !important;
+}
+.text-content {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translatey(-50%);
+  max-width: 825px;
+  z-index: 99;
+}
+.text-content p,
+.text-content h1 {
+  color: #fff;
+  font-size: 52px;
+}
+.text-content button {
+  background: #133a7c;
+  color: #fff;
+  border: none;
+  padding: 15px 50px;
+  font-size: 23px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+@media screen and (max-width: 991px) {
+  .text-content h1 {
+    font-size: 44px;
+  }
+  .Carousel-images {
+    height: 350px !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .text-content h1 {
+    font-size: 30px;
+  }
+}
