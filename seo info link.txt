@@ -1,0 +1,9 @@
+https://www.toptal.com/react/react-seo-best-practices
+https://www.fullstacklabs.co/blog/improving-seo-in-react-apps-with-react-helmet
+https://medium.com/@franklynugege/seo-in-react-two-simple-step-implementation-7d9382381718
+https://www.youtube.com/watch?v=idq0UMulc6g&ab_channel=%C3%87elikK%C3%B6seo%C4%9Flu
+robot.txt file for google robot crawler
+react snap-shot, pre-render, react-helmet
+
+
+react-helmet + snap-hot combination yet
